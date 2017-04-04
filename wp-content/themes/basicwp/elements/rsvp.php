@@ -1,3 +1,5 @@
+<h1>rsvp</h1>
+
 <section class="bottom pure-g" id="participate">
     <div class="participation-form pure-u-1">
         <label for="text"><p>Ar dalyvausite?</p></label>
