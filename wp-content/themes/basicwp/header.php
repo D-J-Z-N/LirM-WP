@@ -2,11 +2,11 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <link rel="stylesheet" href="css/style.css" type="text/css" media="all">
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>LirM</title>
     <meta name="description" content="Vestes">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
     <link rel="stylesheet" href="https://unpkg.com/purecss@0.6.2/build/base-min.css">
     <link rel="stylesheet" href="https://unpkg.com/purecss@0.6.2/build/grids-min.css">
     <link rel="stylesheet" href="https://unpkg.com/purecss@0.6.2/build/grids-responsive-min.css">

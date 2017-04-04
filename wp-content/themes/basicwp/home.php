@@ -21,7 +21,7 @@
         </section>
 
         <audio controls autoplay>
-            <source src="audio/zuvu_sukelem.mp3" type="audio/mpeg">
+            <source src="<?php bloginfo('template_directory'); ?>/audio/zuvu_sukelem.mp3" type="audio/mpeg">
             Your browser does not support the audio element.
         </audio>
 
@@ -132,10 +132,4 @@
         }
     }
 </script>
-<script
-    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAl0psEWIDe9K5JwcrXEtbJWi17VMCddPY&callback=babtynasMap"></script>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
-<script src="scripts/scripts.js" type="text/javascript"></script>
-
-</body>
-</html>
+<?php get_footer(); ?>
