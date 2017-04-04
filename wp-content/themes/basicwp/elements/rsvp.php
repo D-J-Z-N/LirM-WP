@@ -29,9 +29,9 @@
                 success: function (data) {
                     $('.selected').removeClass('selected');
                     if (will_come) {
-                        $('#my_form').html('<div>Ačiū</div>');
+                        $('#my_form').html('<div class="thanks">Ačiū! Lauksime atvykstant.</div>');
                     } else {
-                        $('#my_form').html('<div>Nu ir nereikia</div>');
+                        $('#my_form').html('<div class="thanks">Ačiū</div>');
                     }
                 },
                 error: function (data) {
