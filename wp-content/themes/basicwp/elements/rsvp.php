@@ -29,9 +29,9 @@
                 success: function (data) {
                     $('.selected').removeClass('selected');
                     if (will_come) {
-                        $('#my_form').html('<div class="thanks">Ačiū! Lauksime atvykstant.</div>');
+                        $('#my_form').html('<div class="thanks">Ačiū. Lauksime atvykstant!</div>');
                     } else {
-                        $('#my_form').html('<div class="thanks">Ačiū</div>');
+                        $('#my_form').html('<div class="thanks">Ačiū. Iki kitų susitikimų!</div>');
                     }
                 },
                 error: function (data) {
@@ -40,7 +40,6 @@
                 }
             });
         });
-
 
     });
 
