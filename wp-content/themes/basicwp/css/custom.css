@@ -97,7 +97,8 @@ p {
   position: absolute;
   border: 2px solid #fff;
   top: -30px;
-  left: 48.5%;
+  left: 50%;
+	margin-left: -1.5rem;
   transform: rotate(45deg);
 }
 
@@ -319,7 +320,8 @@ input {
   position: absolute;
   border: 2px solid #fff;
   bottom: -30px;
-  left: 48.5%;
+  left: 50%;
+	margin-left: -1.5rem;
   transform: rotate(45deg);
 }
 
@@ -338,10 +340,6 @@ html {
 
   .hero {
     height: 500px;
-  }
-
-  .hero:before {
-    left: 42%;
   }
 
   .invite {
@@ -364,10 +362,5 @@ html {
   .bottom {
     height: 40%;
   }
-
-  .up-home {
-    left: 42%;
-  }
-
 
 }
