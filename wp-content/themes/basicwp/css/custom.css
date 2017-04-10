@@ -72,7 +72,7 @@ p {
 }
 
 .inner-container {
-  max-width: 1519px;
+  /*max-width: 1519px;*/
   width: 100%;
   margin: 0 auto;
   /*position: relative;*/
@@ -82,11 +82,23 @@ p {
   color: #fff;
   background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../img/goodwp.com_30690.jpg");
   background-size: cover;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
   background-position: center center;
   background-attachment: fixed;
   height: 100vh;
   position: relative;
-  /*not 100% sure about height*/
+  /*not 100% sure about height
+	height: 100%;
+	width: 100%;
+	background-repeat: no-repeat;*/
+}
+
+@media only screen and (min-width: 768px) {
+	.hero {
+		background-attachment: fixed;
+	}
 }
 
 .hero:before {
@@ -99,6 +111,8 @@ p {
   top: -30px;
   left: 50%;
 	margin-left: -1.5rem;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
   transform: rotate(45deg);
 }
 
@@ -175,6 +189,8 @@ h1 {
   height: 2rem;
   width: 2rem;
   border: 2px solid #fff;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
   transform: rotate(45deg);
   margin: 0 auto;
 }
@@ -234,6 +250,8 @@ p.coordinates {
   display: block;
   height: 2rem;
   width: 2rem;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
   transform: rotate(45deg);
   margin: 0 auto;
 }
@@ -322,6 +340,8 @@ input {
   bottom: -30px;
   left: 50%;
 	margin-left: -1.5rem;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
   transform: rotate(45deg);
 }
 
@@ -338,9 +358,9 @@ html {
     height: 24rem;
   }
 
-  .hero {
+  /*.hero {
     height: 500px;
-  }
+  }*/
 
   .invite {
     padding-top: 6rem;
@@ -363,4 +383,11 @@ html {
     height: 40%;
   }
 
+}
+
+@media all and (max-width: 319px) {
+
+	.names {
+		margin: 2rem 0;
+	}
 }
