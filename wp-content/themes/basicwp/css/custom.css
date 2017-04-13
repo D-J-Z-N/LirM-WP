@@ -86,7 +86,7 @@ p {
 	-moz-background-size: cover;
 	-o-background-size: cover;
   background-position: center center;
-  background-attachment: fixed;
+  //background-attachment: fixed;
   height: 100vh;
   position: relative;
   /*not 100% sure about height
@@ -350,7 +350,7 @@ input {
 }
 
 @media all and (max-width: 500px) {
-html {
+	html {
     font-size: 0.75rem;
   }
 
@@ -376,7 +376,7 @@ html {
   }
 
   .names {
-    min-width: 16rem;
+    min-width: 12rem;
   }
 
   .bottom {
@@ -385,9 +385,13 @@ html {
 
 }
 
-@media all and (max-width: 319px) {
-
-	.names {
-		margin: 2rem 0;
+@media all and (max-width: 350px) {
+	.input {
+		margin: 0 auto;
 	}
+	.names {
+		font-size: 1.5rem;
+	}
+	.submit-button {
+    min-width: 6rem;
 }
