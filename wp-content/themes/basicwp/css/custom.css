@@ -86,13 +86,9 @@ p {
 	-moz-background-size: cover;
 	-o-background-size: cover;
   background-position: center center;
-  //background-attachment: fixed;
+  /*background-attachment: fixed;*/
   height: 100vh;
   position: relative;
-  /*not 100% sure about height
-	height: 100%;
-	width: 100%;
-	background-repeat: no-repeat;*/
 }
 
 @media only screen and (min-width: 768px) {
